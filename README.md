@@ -1,5 +1,5 @@
 # Project 
-Source code for Web Api solution using latest dotnet LTS version, where user could store key-value pairs: key - string value - List<object>
+Source code for Web Api solution using latest dotnet LTS version, where user could store key-value pairs: key - string value - `List<object>`
 
 ## Requirements
 
