@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23EBF1CC-E6A6-4D49-8509-17C1076782D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3E1042D3-8209-4D03-91C5-170D83C62D48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.WebApi", "src\OndatoCacheSolution.WebApi\OndatoCacheSolution.WebApi.csproj", "{93E6E1DC-0483-4D9E-A03C-9D14CCE89289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.Domain", "src\OndatoCacheSolution.Domain\OndatoCacheSolution.Domain.csproj", "{FA75004F-05B0-4598-96F4-BFF2189CAC4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.Application", "src\OndatoCacheSolution.Application\OndatoCacheSolution.Application.csproj", "{045C1922-90C5-4B7A-800A-AAAAD16C99DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.IntegrationTests", "tests\OndatoCacheSolution.IntegrationTests\OndatoCacheSolution.IntegrationTests.csproj", "{96BC61ED-3E59-4647-B8F7-9D8022E15928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.UnitTests", "tests\OndatoCacheSolution.UnitTests\OndatoCacheSolution.UnitTests.csproj", "{1A675C8D-977A-4DAE-85A1-E668790FA18E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OndatoCacheSolution.Infrastructure", "src\OndatoCacheSolution.Infrastructure\OndatoCacheSolution.Infrastructure.csproj", "{2C4F4794-EDDA-47D6-8E25-C5530593DC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E6E1DC-0483-4D9E-A03C-9D14CCE89289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E6E1DC-0483-4D9E-A03C-9D14CCE89289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E6E1DC-0483-4D9E-A03C-9D14CCE89289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E6E1DC-0483-4D9E-A03C-9D14CCE89289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA75004F-05B0-4598-96F4-BFF2189CAC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA75004F-05B0-4598-96F4-BFF2189CAC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA75004F-05B0-4598-96F4-BFF2189CAC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA75004F-05B0-4598-96F4-BFF2189CAC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045C1922-90C5-4B7A-800A-AAAAD16C99DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045C1922-90C5-4B7A-800A-AAAAD16C99DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045C1922-90C5-4B7A-800A-AAAAD16C99DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045C1922-90C5-4B7A-800A-AAAAD16C99DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BC61ED-3E59-4647-B8F7-9D8022E15928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BC61ED-3E59-4647-B8F7-9D8022E15928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BC61ED-3E59-4647-B8F7-9D8022E15928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BC61ED-3E59-4647-B8F7-9D8022E15928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A675C8D-977A-4DAE-85A1-E668790FA18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A675C8D-977A-4DAE-85A1-E668790FA18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A675C8D-977A-4DAE-85A1-E668790FA18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A675C8D-977A-4DAE-85A1-E668790FA18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4F4794-EDDA-47D6-8E25-C5530593DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4F4794-EDDA-47D6-8E25-C5530593DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4F4794-EDDA-47D6-8E25-C5530593DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4F4794-EDDA-47D6-8E25-C5530593DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93E6E1DC-0483-4D9E-A03C-9D14CCE89289} = {23EBF1CC-E6A6-4D49-8509-17C1076782D7}
+		{FA75004F-05B0-4598-96F4-BFF2189CAC4A} = {23EBF1CC-E6A6-4D49-8509-17C1076782D7}
+		{045C1922-90C5-4B7A-800A-AAAAD16C99DC} = {23EBF1CC-E6A6-4D49-8509-17C1076782D7}
+		{96BC61ED-3E59-4647-B8F7-9D8022E15928} = {3E1042D3-8209-4D03-91C5-170D83C62D48}
+		{1A675C8D-977A-4DAE-85A1-E668790FA18E} = {3E1042D3-8209-4D03-91C5-170D83C62D48}
+		{2C4F4794-EDDA-47D6-8E25-C5530593DC47} = {23EBF1CC-E6A6-4D49-8509-17C1076782D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB6E51A5-FF97-42C8-B989-A5423F6815B8}
+	EndGlobalSection
+EndGlobal
